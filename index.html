@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbondz</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/image/inbondz-icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav style="border-bottom: 2px solid #9ea3a3 ; background-color: #fff; ">
+        <ul
+            style="display: flex; text-decoration: none; list-style: none; align-items: center; justify-content: space-between;">
+            <li id="search" style="display: flex ; align-items: center; cursor: pointer; "><img src="assets/image/inbondz-icon.png"
+                    style="width: 50px; height: 50px; " alt="">
+               
+            </li>
+            
+        </ul>
+    </nav>
+    <div class="container">
+     <button id="news"> Inbondz News</button>
+
+    </div>
+
+   
+
+
+</body>
+<script >
+ const newsButton = document.getElementById('news');
+ newsButton.addEventListener('click', () => {
+    window.location.href = 'https://news.inbondz.com';
+ });
+</script>
+
+</html>
